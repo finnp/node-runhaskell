@@ -1,0 +1,35 @@
+{
+  "name": "runhaskell",
+  "version": "0.0.0",
+  "description": "Run Haskell code from node",
+  "main": "runhaskell.js",
+  "dependencies": {
+    "concat-stream": "^1.4.6",
+    "tape": "^2.13.4",
+    "split": "^0.3.0",
+    "take-stream": "^0.0.0",
+    "tape-readable-seq": "^0.0.2"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.6",
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finnp/runhaskell.git"
+  },
+  "keywords": [
+    "haskell",
+    "ghc",
+    "fun"
+  ],
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finnp/runhaskell/issues"
+  },
+  "homepage": "https://github.com/finnp/runhaskell"
+}
